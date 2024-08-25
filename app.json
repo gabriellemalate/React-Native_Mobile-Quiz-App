@@ -1,49 +1,29 @@
 {
   "expo": {
-    "name": "gpt-mobile-quiz",
-    "slug": "gpt-mobile-quiz",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
-    "userInterfaceStyle": "automatic",
-    "splash": {
-      "image": "./assets/images/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "assetBundlePatterns": ["**/*"],
-    "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
-    },
+    "scheme": "acme",
     "web": {
-      "bundler": "metro",
-      "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "bundler": "metro"
     },
-    "plugins": ["expo-router"],
-    "experiments": {
-      "typedRoutes": true
-    },
+    "plugins": [
+      "expo-router"
+    ],
+    "name": "Trivia App",
+    "slug": "trivia-app",
     "extra": {
       "router": {
         "origin": false
       },
       "eas": {
-        "projectId": "7b5c9f14-ade8-4c7d-83f2-62da893896bf"
+        "projectId": "ff1ea15e-cd96-4cae-a639-f19289ffa7b1"
       }
     },
     "runtimeVersion": {
-      "policy": "appVersion"
+      "policy": "sdkVersion"
     },
     "updates": {
-      "url": "https://u.expo.dev/7b5c9f14-ade8-4c7d-83f2-62da893896bf"
-    }
+      "url": "https://u.expo.dev/ff1ea15e-cd96-4cae-a639-f19289ffa7b1"
+    },
+    "android": {},
+    "ios": {}
   }
 }
